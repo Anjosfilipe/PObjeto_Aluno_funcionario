@@ -11,15 +11,15 @@ namespace PObjeto_Aluno_funcionario
         String Nome, Data_Nascimento;
         long Cpf;
 
-        public  Pessoa(string nome, string data_nascimento, long cpf )
+        public Pessoa(string nome, string data_nascimento, long cpf)
         {
             this.Nome = nome;
             this.Data_Nascimento = data_nascimento;
-            this.Cpf = cpf; 
+            this.Cpf = cpf;
 
         }
 
-        public void setNome(String nome) 
+        public void setNome(String nome)
         {
             this.Nome = nome;
         }
